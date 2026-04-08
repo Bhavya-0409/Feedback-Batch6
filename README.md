@@ -1,16 +1,25 @@
-# React + Vite
+Since you've built a full-stack Feedback Management System using Spring Boot, React, and MySQL, your README should highlight the tech stack and the "Two-Dashboard" logic you created.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here is a professional, well-formatted README.md file you can copy directly into your project.
 
-Currently, two official plugins are available:
+Feedback Management System (Vantage CMS)
+A full-stack web application designed to streamline the process of raising complaints and managing resolutions. The system features a dual-dashboard interface: one for users to report issues and provide feedback, and another for administrators to oversee and resolve pending tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+User Dashboard
+Raise Complaints: Users can enter their name and describe their issue.
 
-## React Compiler
+Track Status: Real-time visibility of complaint status (PENDING/RESOLVED).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Filtering: Users see only their own history by entering their username.
 
-## Expanding the ESLint configuration
+Service Feedback: Once an issue is marked as "Resolved" by an admin, the user can submit a final rating/feedback.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Admin Dashboard
+Secure Login: Protected by a login gate (Password-based access).
+
+Central Oversight: A comprehensive table view of all complaints across the system.
+
+One-Click Resolution: Admins can mark pending issues as "Resolved" to notify users.
+
+Feedback Monitoring: Admins can view the final feedback submitted by users to measure service quality.
